@@ -3,9 +3,11 @@ import React from "react";
 const Pricing = () => {
   return (
     <div class="bg-[#F3F2EF] p-8 flex flex-col justify-center gap-12 items-center">
-      <p class="text-4xl font-bold">See Our Pricing Model</p>
+      <p class="md:text-4xl text-3xl  text-center font-bold">
+        See Our Pricing Model
+      </p>
 
-      <div class="w-[100%] grid grid-cols-4 items-end gap-6">
+      <div class="w-[100%] grid md:grid-cols-4 items-end gap-6">
         <div class="bg-white h-[600px] rounded-md p-4 items-start flex-col flex justify-between">
           <div class="flex flex-col gap-1">
             <p class="text-2xl font-bold">Starter</p>
