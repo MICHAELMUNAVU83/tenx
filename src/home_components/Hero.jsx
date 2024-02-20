@@ -2,7 +2,7 @@ import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 const Hero = () => {
   return (
-    <div class="md:h-[100vh] py-8 md:py-0 text-center flex flex-col  justify-center items-center gap-8">
+    <div class="md:h-[100vh]  py-8 md:py-0 text-center flex flex-col  justify-center items-center gap-8">
       <div class="flex flex-col gap-4 font-bold md:text-7xl text-3xl items-center justify-center">
         <p>Supercharge Your Revenue With the</p>
         <p>#1 Rated and Highest Converting</p>

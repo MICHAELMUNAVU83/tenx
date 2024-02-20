@@ -5,10 +5,12 @@ import Footer from "./common_components/Footer";
 import Action from "./common_components/Action";
 import About from "./pages/About";
 import Pricing from "./pages/Pricing";
+import NavBar from "./common_components/Navbar";
 const App = () => {
   return (
     <div>
       <Router>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

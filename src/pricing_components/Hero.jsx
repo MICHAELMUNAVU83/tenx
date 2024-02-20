@@ -68,7 +68,7 @@ const Hero = () => {
   ];
   return (
     <>
-      <div class="bg-[#F3F2EF] p-8 flex flex-col gap-4 justify-center items-center">
+      <div class="bg-[#F3F2EF] pt-24 p-8 flex flex-col gap-4 justify-center items-center">
         <p class="md:text-6xl text-4xl text-center font-semibold">
           <span>Try</span>
           <span class="text-[#FF2400] mx-4">10XBEAST</span> Risk Free
