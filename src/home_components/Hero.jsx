@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaArrowRightLong } from "react-icons/fa6";
 const Hero = () => {
   return (
     <div class="h-[100vh] flex flex-col justify-center items-center gap-8">
@@ -16,7 +16,7 @@ const Hero = () => {
         with a sales platform built for results
       </p>
 
-      <div class="flex w-[70%]  p-2 border-[2px] border-[#1F1F1F]/50 rounded-md h-[80px] justify-between mx-auto">
+      <div class="flex w-[60%]  p-2 border-[2px] border-[#1F1F1F]/40 rounded-md h-[70px] justify-between mx-auto">
         <div class="w-[60%] flex items-center justify-center">
           <input
             type="text"
@@ -25,8 +25,9 @@ const Hero = () => {
           />
         </div>
 
-        <div class="w-[20%] flex items-center  bg-[#FF2400] rounded-md text-white text-xl justify-center">
-          Try 10xBeast
+        <div class="w-[20%] uppercase flex items-center  bg-[#FF2400] rounded-md text-white text-xl justify-center">
+          <p>Try 10xBeast</p>
+          <FaArrowRightLong />
         </div>
       </div>
     </div>

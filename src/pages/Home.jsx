@@ -1,9 +1,8 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Products from "../components/Products";
-import Pricing from "../components/Pricing";
-import Action from "../components/Action";
-import Footer from "../components/Footer";
+import Hero from "../home_components/Hero";
+import Products from "../home_components/Products";
+import Pricing from "../home_components/Pricing";
+
 
 const Home = () => {
   return (
@@ -11,8 +10,8 @@ const Home = () => {
       <Hero />
       <Products />
       <Pricing />
-      <Action />
-      <Footer />
+      
+    
     </div>
   );
 };

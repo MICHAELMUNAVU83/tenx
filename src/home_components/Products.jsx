@@ -2,20 +2,19 @@ import React from "react";
 
 const Products = () => {
   return (
-    <div class="bg-black  h-[120vh] flex justify-center items-center flex-col gap-6">
-      <div class="flex flex-col gap-4 font-bold text-4xl items-center text-white text-center justify-center">
-        <p>Maximize your sales with AI</p>
-        <p>Powered Email</p>
+    <div class="bg-black  p-8 flex justify-center items-center flex-col gap-6">
+      <div class="flex flex-col gap-4 font-bold text-6xl items-center w-[70%] mx-auto text-center text-white  justify-center">
+        <p>Use AI Powered Email to Beat your competition</p>
       </div>
       <div class="w-[90%] h-[75vh] bg-[#FF2400] text-white flex flex-col gap-4 p-5 ">
-        <p class="text-3xl font-semibold">10X Your Revenue</p>
-        <p class="text-xl">
+        <p class="text-3xl font-semibold">Scale your Revenue</p>
+        <p class="text-2xl">
           Build your sales pipeline at 10x speed and a fraction of the cost
         </p>
 
         <div class="w-[100%] flex justify-between">
           <div class="w-[47%] h-[50vh] bg-[#323232] flex flex-col justify-between p-3 ">
-            <p class="text-2xl font-bold">Saas Products</p>
+            <p class="text-3xl font-bold">Saas Products</p>
             <p>
               Our advanced AI finds target prospects and creates campaigns that
               get you demo bookings and build your sales pipeline.
@@ -66,7 +65,7 @@ const Products = () => {
           </div>
 
           <div class="w-[47%] h-[50vh] bg-[#323232] flex flex-col justify-between p-3 ">
-            <p class="text-2xl font-bold">E Commerce </p>
+            <p class="text-3xl font-bold">E Commerce </p>
             <p>
               Automate your content strategy with our AI-powered platform.
               Personalize your audience's journey, drive demand, enhance SEO,
