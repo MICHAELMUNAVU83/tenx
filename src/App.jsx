@@ -1,8 +1,8 @@
 import React from "react";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Footer from "./home_components/Footer";
-import Action from "./home_components/Action";
+import Footer from "./common_components/Footer";
+import Action from "./common_components/Action";
 import About from "./pages/About";
 import Pricing from "./pages/Pricing";
 const App = () => {
