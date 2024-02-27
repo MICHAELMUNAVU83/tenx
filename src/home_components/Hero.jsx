@@ -7,7 +7,6 @@ const Hero = () => {
         <p>Supercharge Your Revenue With the</p>
         <p>#1 Rated and Highest Converting</p>
         <p>
-          {" "}
           <span class="text-[#FF2400]">AI-Powered Sales</span> Platform
         </p>
       </div>
